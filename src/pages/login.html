@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/global.css">
     <title>Entrar - Loja Digital</title>
 </head>
+
 <body>
     <header>
         <nav>
             <a href="../../index.html">
-                <img src="../assets/logotipo.svg" alt="logotipo"/>
+                <img src="../assets/logotipo.svg" alt="logotipo" />
                 <span>Loja Digital</span>
             </a>
         </nav>
     </header>
+
+    <main>
+        <form>
+            <h1>Acesse sua conta</h1>
+            <p>Não possui conta? Registre-se <a href="">aqui</a>.</p>
+            <div class="inputs">
+                <div>
+                    <label>email *</label>
+                    <input type="email" placeholder="insira seu email" />
+                </div>
+                <div>
+                    <label>senha *</label>
+                    <input type="password" placeholder="insira sua senha" />
+                </div>
+            </div>
+            <span>
+                <a href="#">esqueci minha senha</a>
+            </span>
+            <button>acessar conta</button>
+            <div class="others">
+                <span>Ou faça login com</span>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img 
+                                    src="../assets/gmail.svg" 
+                                    alt="icone do gmail"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img 
+                                    src="../assets/facebook.svg" 
+                                    alt="icone do facebook"/>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </form>
+    </main>
 </body>
+
 </html>
