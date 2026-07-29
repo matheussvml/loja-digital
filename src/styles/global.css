@@ -216,5 +216,37 @@ footer {
                 }
             }
         }
+
+        .contact{
+            margin-bottom: 40px;
+            h2{
+                font-size: 18px;
+                text-transform: capitalize;
+                margin-bottom: 10px;
+                letter-spacing: 1px;
+            }
+
+            address{
+                width: 270px;
+                margin-bottom: 31px;
+
+                a{
+                    font-style: normal;
+                    line-height: 31px;
+                }
+            }
+        }
+    }
+    
+    hr{
+        border-color: #ffffff4d;
+        margin-bottom: 23px;
+    }
+    
+    small{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        color: #8d8d8dc6;
     }
 }
